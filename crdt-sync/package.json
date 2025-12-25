@@ -1,0 +1,19 @@
+{
+    "name": "crdt-file-sync",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "server": "bun run server.ts",
+        "client": "bun run client.ts"
+    },
+    "dependencies": {
+        "yjs": "^13.6.10",
+        "y-websocket": "^2.0.3",
+        "ws": "^8.16.0",
+        "chokidar": "^3.5.3"
+    },
+    "devDependencies": {
+        "@types/ws": "^8.5.10",
+        "@types/node": "^20.11.0"
+    }
+}
